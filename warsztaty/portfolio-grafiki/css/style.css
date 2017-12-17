@@ -8,3 +8,139 @@ body {
     font-weight: 300;
 }
 
+
+
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+
+#section {
+    padding: 0 80px 100px;
+    padding: 0 80px 100px;
+    font-weight: 100;
+}
+
+#secion h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+/* Main navigation styles START*/
+
+#main-nav {
+    position: fixed;
+    width: 100%;
+    background-color: #ffff;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+#main-nav >ul {
+    margin: 0;
+    float: right;
+}
+
+#main-nav >ul > li {
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px;
+}
+
+#main-nav >ul > li a {
+  color: #1ac056;
+text-decoration: none;
+    font-weight: 300;
+}
+
+
+#main-nav >ul > li a:hover {
+  color: #291f1a;
+}
+
+/* Main navigation styles END*/
+
+
+
+
+/* Main header styles START*/
+#main-nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px 40px;
+}
+
+main-header .main-header-content{
+    padding: 30vh;
+    text-align: center;
+}
+
+
+main-header .main-header-content span{
+    color: #1ac056;
+    font-weight: 400;
+}
+
+main-header .main-header-content h1{
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+main-header .main-header-content h2{
+    font-weight: 200;
+    font-size: 2em;
+}
+
+#about {
+    background-color: #f9fcfe;
+    overflow: hidden;
+}
+
+#about > figure{
+    width: 50%;
+    margin: 0;
+    float: left;
+    text-align: center;
+}
+
+#about > article{
+    width: 50%;
+    float: left;
+}
+
+#about > figure > img {
+    max-height: 350px;
+    border: 14px #fff solid;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
