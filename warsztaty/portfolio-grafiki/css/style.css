@@ -5,11 +5,9 @@
 body {
 	font-family: 'Lato', sans-serif;
 	color: #291f1a;
+    margin: 0;
     font-weight: 300;
 }
-
-
-
 
 h1, h2, h3, h4, h5, h6{
     text-align: center;
@@ -17,7 +15,6 @@ h1, h2, h3, h4, h5, h6{
 
 
 #section {
-    padding: 0 80px 100px;
     padding: 0 80px 100px;
     font-weight: 100;
 }
@@ -74,24 +71,23 @@ text-decoration: none;
     padding: 20px 40px;
 }
 
-main-header .main-header-content{
+#main-header .main-header-content{
     padding: 30vh;
     text-align: center;
 }
 
-
-main-header .main-header-content span{
+#main-header .main-header-content span{
     color: #1ac056;
     font-weight: 400;
 }
 
-main-header .main-header-content h1{
+#main-header .main-header-content h1{
     font-size: 4em;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
 
-main-header .main-header-content h2{
+#main-header .main-header-content h2{
     font-weight: 200;
     font-size: 2em;
 }
@@ -120,7 +116,18 @@ main-header .main-header-content h2{
     max-width: 100%;
 }
 
+#skills > p {
+    text-align: center;
+}
 
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills div#skills-icons figure {
+    display: inline-block;
+    margin-bottom: 15px;
+}
 
 
 
