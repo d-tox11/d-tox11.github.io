@@ -1,0 +1,63 @@
+form {
+    width: 580px;
+    height: 305px;
+    background-color: 0xffffff;
+    font-family: 'Roboto' sans-serif;
+}
+
+h1 {
+    color: #524665;
+    font-size: 20px;
+}
+
+h2 {
+    color: #9F9BBD;
+    font-size: 15px;
+}
+
+h3 {
+    margin-top: -20px;
+    font-size: 13px;
+    font-weight: 100;
+    z-index: 1;
+}
+
+section#Customer-Info {
+    border: 2px solid lightgrey;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+section#Books {
+    border: 2px solid lightgrey;
+    padding: 10px; 
+    font-size: 13px;
+}
+
+#Customer-Info input, label {
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 300px;
+    padding-left: 0px;
+}
+
+#Books input, label {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-left: 0px;
+    width: 230px;
+}
+
+#Books input[type=number] {
+    margin-left: 0px;
+    width: 100px;
+}
+
+from input placeholder {
+    color: lightgrey;
+}
+
+form input[type="submit"] {
+    background-color: lightcyan;
+}

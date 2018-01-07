@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie-2-HTML-#4032</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>A Simple From</h1>
+    <h2><i>Form Fundamentals</i></h2>
+    <form action="https://formspree.io/michal.halemba@gmail.com" method="POST" autocomplete="on">
+        <section id="Customer-Info">
+            <h3>Customer info</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus><br>
+            <label for="tel">Telephone:</label>
+            <input type="tel" id="tel" name="number" placeholder="Pattern: 1-234-567-8910" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <label for="email">Email address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+        </section>
+        <br>
+        <section id="Books">
+            <h3>Books</h3>
+            <input type="text" name="books">
+            <label for="quantity">Quantity (Maximum 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5">
+        </section>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
